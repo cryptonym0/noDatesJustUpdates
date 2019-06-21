@@ -14,7 +14,7 @@ def sockMerchant(n, ar):
         if(i not in c):
             c.append(i)
         else:
-            ++total
+            total = total + 1
             c.remove(i)
     return total
 
