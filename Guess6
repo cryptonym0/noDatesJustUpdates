@@ -1,0 +1,43 @@
+#guess 6
+import random
+
+#Check that Input is a number
+def isnumber(input_number):
+    while input_number.isdigit() == False:
+      input_number = input('It has to be a number:\n')
+    return int(input_number)
+
+#User input name and bound  
+def guess6(user_name, number_range):
+  #Integer Variables
+  total_guesses = 0
+  rand = random.randint(1, number_range+1)
+  
+  #String Variables
+  guess_prompt_str = ('{0}, Guess a number between 1 and {1}:\n'.format(user_name, number_range))
+  end_message_str = ('Nope. The number I was thinking of was {0}'.format(rand))
+  hint_str = ('Your guess is too')
+
+  #begin loop
+  while total_guesses < 6:
+    #Get User Input
+    guess = input(guess_prompt_str)
+    guess = isnumber(guess)
+    total_guesses = total_guesses + 1
+    #if correct
+    if guess == rand:
+      end_message_str = ('Great {0}! You guessed in {1} guesses!\n'.format(user_name, total_guesses))
+      break;
+    if guess < rand:
+      print(hint_str, 'low!\n')
+    else:
+      print(hint_str, 'high!\n')
+  print(end_message_str)
+
+#main
+if __name__ == '__main__':
+  #GEt user Input
+  user_name = input('Hello! Please enter your name:\n')
+  number_range = input('Thanks {0}, Enter the max number range:\n'.format(user_name))
+  number_range = isnumber(number_range)
+  guess6(user_name, int(number_range))
