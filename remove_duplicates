@@ -1,0 +1,26 @@
+#Program to remove the duplicated from a list
+items = [1, 2, 3, 4, 8, 90, 'a', 'b', 'c', 'ab', 'bc', 2, 3, 4, 5, 6, 'a', 'd', 'd']
+
+def hash_solution(list_items):
+  return list(set(list_items))
+
+def brute_solution(list_items):
+  seen = []
+  for i in list_items:
+    if i not in seen:
+      seen.append(i)
+  return seen
+
+def brute_solution2(list_items):
+  seen = []
+  helper = set()
+  for i in list_items:
+    if i not in helper:
+      seen.append(i)
+      helper.add(i)
+  return seen
+
+if __name__ == '__main__':
+  print(hash_solution(items))
+  print(brute_solution(items))
+  print(brute_solution2(items))
