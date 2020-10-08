@@ -1,0 +1,15 @@
+def getMinCost(crew_id, job_id):
+    # Write your code here
+    #sort the lists
+    crew = sorted(crew_id)
+    job = sorted(job_id)
+    total = len(crew)
+    distance = 0
+    
+    for i in range(0,total):
+        distance += (abs(job[i]-crew[i]))
+    print(distance)
+    print(sorted(crew_id))
+    print(sorted(job_id))
+
+    return distance
