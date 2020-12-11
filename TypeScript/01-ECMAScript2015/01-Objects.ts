@@ -10,8 +10,8 @@ console.log(fname, age);
 const { fname: firstName } = person;
 console.log(firstName);
 
-const numbers = [0, 1, 2];
-const [a] = numbers;
+const numbers2 = [0, 1, 2];
+const [a] = numbers2;
 console.log(a);
 
 //APis

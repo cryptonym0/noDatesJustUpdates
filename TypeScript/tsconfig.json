@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "files":[
+        "03-PrimativeDataTypes/allPrimativeDataTypes.ts"
+    ],
+    "include": [
+        "*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "/01-ECMAScript2015"
+    ]
+}

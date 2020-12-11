@@ -1,7 +1,7 @@
-const numbers: number[] = [0, 1, 2, 3];
+const numbers1: number[] = [0, 1, 2, 3];
 
 const greaterThanTwo: number[] =
-    numbers.filter(number => number > 2);
+    numbers1.filter(number => number > 2);
 
 console.log(greaterThanTwo);
 

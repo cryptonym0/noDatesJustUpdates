@@ -3,13 +3,13 @@
  ***********************************************************/
 
 //Classic
-const numbers = [0, 1, 2];
-numbers.map(function(number){
+const numbers3 = [0, 1, 2];
+numbers3.map(function(number){
     return console.log(number);
 });
 
 //Arrow
-numbers.map(number => console.log(number));
+numbers3.map(number => console.log(number));
 
 //diff
 const quotient1 = {
