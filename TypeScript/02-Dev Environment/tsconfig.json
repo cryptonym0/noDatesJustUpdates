@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2020"
+    },
+    "files": [],
+    "include": [
+        "*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
