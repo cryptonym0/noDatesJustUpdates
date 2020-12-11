@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
-        "target": "ES6"
+        "target": "ES2020",
+        "strictNullChecks": true
     },
     "files":[
-        "03-PrimativeDataTypes/allPrimativeDataTypes.ts"
+        "03-PrimativeDataTypes/allPrimativeDataTypes.ts",
+        "04-NonPrimativeDataTypes/nonPrimativeDataTypes.ts"
     ],
     "include": [
         "*.ts"
