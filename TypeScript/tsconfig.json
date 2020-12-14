@@ -6,7 +6,8 @@
     "files":[
         "03-PrimativeDataTypes/allPrimativeDataTypes.ts",
         "04-NonPrimativeDataTypes/nonPrimativeDataTypes.ts",
-        "06-Modularization/*"
+        "/06-Modularization/hero.ts",
+        "TypeScript/08-TypingsTransplationsAndDebugging/"
     ],
     "include": [
         "*.ts"
