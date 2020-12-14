@@ -6,7 +6,7 @@
     "files":[
         "03-PrimativeDataTypes/allPrimativeDataTypes.ts",
         "04-NonPrimativeDataTypes/nonPrimativeDataTypes.ts",
-        "05-ObjectOrientedTS/*"
+        "06-Modularization/*"
     ],
     "include": [
         "*.ts"
