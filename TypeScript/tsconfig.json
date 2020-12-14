@@ -5,7 +5,8 @@
     },
     "files":[
         "03-PrimativeDataTypes/allPrimativeDataTypes.ts",
-        "04-NonPrimativeDataTypes/nonPrimativeDataTypes.ts"
+        "04-NonPrimativeDataTypes/nonPrimativeDataTypes.ts",
+        "05-ObjectOrientedTS/*"
     ],
     "include": [
         "*.ts"

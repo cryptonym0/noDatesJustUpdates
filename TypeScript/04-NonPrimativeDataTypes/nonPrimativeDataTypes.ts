@@ -61,7 +61,7 @@ function infinite(): never {
 let test: null = null;
 let test2: undefined = undefined;
 let test3: number = 1;
-test3 = undefined;
+// test3 = undefined;
 
  /***********************************************************
  * void
