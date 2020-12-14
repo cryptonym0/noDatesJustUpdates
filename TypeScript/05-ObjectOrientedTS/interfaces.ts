@@ -38,19 +38,19 @@
 /***********************************************************
  * Interfaces: Extends
  ***********************************************************/
-interface IPerson {
+interface IPerson1 {
     name: string;
 }
 
-interface IHero extends IPerson{
+interface IHero1 extends IPerson1{
     superPower: string;
 }
 
-let regularJoe: IPerson = {
+let regularJoe: IPerson1 = {
     name: "Joe"
 }
 
-let batman: IHero = {
+let batman: IHero1 = {
     name: "bruce",
     superPower: "money"
 }
@@ -75,3 +75,19 @@ let princess: IPet = {
 }
 
 princess.test; //access the 1
+
+/***********************************************************
+ * Interfaces: Class Implementing an Interface
+***********************************************************/
+interface IPerson{
+    name:string;
+}
+class PersonImplement{
+    name: string
+    constructor(name: string){
+        this.name = name;
+    }
+    greet(): string {
+        return `Hello ${this.name}`;
+    }
+}

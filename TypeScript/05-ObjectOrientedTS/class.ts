@@ -1,4 +1,4 @@
-class Person{
+class PersonClass{
     name: string
     constructor(name: string){
         this.name = name;
@@ -9,7 +9,7 @@ class Person{
 }
 
 
-class Hero extends Person {
+class HeroClass extends PersonClass {
     superPowers: string[] = [];
     constructor(name: string){
         super(name);
@@ -22,7 +22,7 @@ class Hero extends Person {
     }
 }
 
-let myHero = new Hero("Bruce");
+let myHero = new HeroClass("Bruce");
 myHero.addPower("money");
 console.log(myHero.listPowers());
 myHero.addPower("guns");
