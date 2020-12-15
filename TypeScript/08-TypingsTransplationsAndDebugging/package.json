@@ -5,6 +5,7 @@
     "fs": "^0.0.1-security",
     "node": "^15.4.0",
     "save": "^2.4.0",
+    "systemjs": "^6.8.1",
     "ts-loader": "^8.0.12",
     "tslint-loader": "file:../../../../../../usr/local/lib/node_modules/tslint-loader",
     "typescript": "^4.1.3",
