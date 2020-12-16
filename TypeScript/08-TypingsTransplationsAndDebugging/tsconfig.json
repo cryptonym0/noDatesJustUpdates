@@ -3,7 +3,7 @@
         "target": "ES2020",
         "strictNullChecks": true,
         "outFile": "./dist/bundle.js",
-        "module": "system",
+        "module": "amd",
         "inlineSources": true,
         "inlineSourceMap": true
     },

@@ -7,12 +7,16 @@
         <meta name="author" content="Elycia Finch">
     </head>
     <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.js"></script>
         <script src="bundle.js"></script>
         <script>
+            require(["main-app"]);
+        </script>
+        <!-- <script>
             System.import('./bundle.js')
             .then(() => System.import('main-app'))
             .catch(console.error.bind(console));
-        </script>
+        </script> -->
     </body>
 
 </html>
