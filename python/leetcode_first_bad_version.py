@@ -2,6 +2,7 @@
 # The isBadVersion API is already defined for you.
 # def isBadVersion(version: int) -> bool:
 
+
 class Solution:
     def firstBadVersion(self, n: int) -> int:
         # if n == 1:
@@ -12,7 +13,7 @@ class Solution:
 
         # binary search kinda
         while low <= high:
-            mid = (low + high )//2
+            mid = (low + high) // 2
 
             # if bad
             if isBadVersion(mid):
@@ -24,6 +25,7 @@ class Solution:
                     return mid
             else:
                 low = mid + 1
+
 
 # Runtime: 43 ms, faster than 49.75% of Python3 online submissions for First Bad Version.
 # Memory Usage: 13.9 MB, less than 67.69% of Python3 online submissions for First Bad Version.

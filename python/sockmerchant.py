@@ -1,5 +1,5 @@
 #!/bin/python3
-#https://www.hackerrank.com/challenges/sock-merchant/problem
+# https://www.hackerrank.com/challenges/sock-merchant/problem
 
 import math
 import os
@@ -12,7 +12,7 @@ def sockMerchant(n, ar):
     c = list()
     total = 0
     for i in ar:
-        if(i not in c):
+        if i not in c:
             c.append(i)
         else:
             total = total + 1
@@ -20,8 +20,8 @@ def sockMerchant(n, ar):
     return total
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input())
 
@@ -29,6 +29,6 @@ if __name__ == '__main__':
 
     result = sockMerchant(n, ar)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()

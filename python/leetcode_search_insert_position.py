@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/search-insert-position/submissions/
 
+
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         # binary search again
@@ -22,6 +23,7 @@ class Solution:
             else:
                 low = mid + 1
         return low
+
 
 # Runtime: 44 ms, faster than 98.61% of Python3 online submissions for Search Insert Position.
 # Memory Usage: 14.7 MB, less than 86.59% of Python3 online submissions for Search Insert Position.
