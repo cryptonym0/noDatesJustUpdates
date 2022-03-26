@@ -1,15 +1,24 @@
-# https://leetcode.com/problems/binary-search/submissions/
-
+# https://leetcode.com/submissions/detail/667844849/
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        # if not exist -1
-        # if exist output the index
-        for index, value in enumerate(nums):
-            if value == target:
-                return index
-        return -1
-
-
-# Runtime: 252 ms, faster than 84.22% of Python3 online submissions for Binary Search.
-# Memory Usage: 15.5 MB, less than 77.82% of Python3 online submissions for Binary Search.
+        #actual binary search...
+        bot, top = -1, len(nums)
+        
+        while top - bot > 1:
+            mid = (bot + top) // 2
+            if nums[mid] == target:
+                return mid
+            if nums[mid] > target:
+                top = mid
+            else:
+                bot = mid
+        return - 1
+            
+    # def search(self, nums: List[int], target: int) -> int:
+    #     #my go to for everything, way faster
+    #     for index, value in enumerate(nums):
+    #         if value == target:
+    #             return index
+    #     return -1
+    
