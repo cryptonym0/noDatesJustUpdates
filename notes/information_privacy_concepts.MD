@@ -168,4 +168,8 @@ it is likely that the most economically valuable electronic asset is aggregation
 ## 2.11 Privacy vs Security -TODO!!
 1. Accountability
    * Security:
-   * Privacy
+   * Privacy:
+2. Itegrity
+3. Aggregation
+4. Confidentiality
+5. Destruction
