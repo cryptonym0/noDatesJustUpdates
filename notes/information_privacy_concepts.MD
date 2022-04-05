@@ -1,19 +1,6 @@
 ##2: Information Privacy Concepts
 
 
-
-    Explain the difference between privacy by design and privacy engineering
-
-    Understand how privacy-related activities fit into the system development life cycle
-
-    Define privacy control
-
-    Discuss the areas of overlap between security and privacy and the areas that are distinct to either security or privacy
-
-    Explain the trade-off between privacy and utility
-
-    Explain the distinction between privacy and usability
-
 ### 2.1 Terminology
 
 1. **Privacy:** Two general characteristics of privacy are the right to be left alone—that is, free from being observed or disturbed—and the ability to control the information released about oneself.
@@ -34,10 +21,8 @@
    * Privacy engineering focuses on implementing techniques that decrease privacy risks and enables organizations to make 'purposeful' decisions about resource allocation and effective implementation of controls in information systems.
    * WHY? Such techniques decrease risks related to privacy harms and enable purposeful decisions about resource allocation and effective implementation of controls.
 6. **System Owner:**  the person or organization having responsibility for the development, procurement, integration, modification, operation, maintenance, and final disposition of an information system. The system owner needs to identify the standards and regulations that apply and develop an overall plan for privacy milestones during system development. It is also important to ensure that all key stakeholders have a common understanding, including privacy implications, considerations, and requirements. This planning activity enables developers to design privacy features into the project.
-7. **:**
-8. **:**
-9. **:**
-10. **:**
+9. **Usability:** refers to the ease of use of privacy features.
+10. **Utility:** refers to the functionality available for databases containing PII with privacy protection in place. Both concepts need to be considered through the design, implementation, and operation of IT systems containing PII.
 
 ## 2.2 Privacy By Design
 
@@ -155,13 +140,32 @@ Don't Forgettii:
    * (iii) to examine and evaluate protections and alternative processes for handling information to mitigate potential privacy risks. 
 5. Privacy engineering and security objectives: confidentiality, integrity, and availability
 
-## 2.7 Privacy Implementation TBA!!
+## 2.7 Privacy Implementation
+* configure and enable system privacy features
+* should perform developmental testing of the technical and privacy features PRIOR to SYSTEM integration
 
-## 2.8 Privacy Testing and Eval
-1. Functional Testiong
-2. Pen test
-3. User testing
+## 2.8 System Implementation
+* occures at deployment
+* privacy control settings are enabled
+* privacy features are integrated
+* Output: verified list of operational privacy controls integrated into the completed system documentation.
 
-## 2.9 Auditing
+## 2.9 Privacy Testing and Eval
+1. Functional Testing - Privacy mechanisms are tested under operational conditions to determine if function works according to requirements
+2. Pen test - Mimic real world attacks, identify ways to circumvent the privacy features of an application, system, or network.
+3. End User testing - Testing in "the real world" by intended audience.
+
+## 2.10 Auditing
+* Continuously Monitor the System
 1. Auditing
+   * Independant Examination of Records and Activities to ensure compliance with policy/controls/operations
+   * reccomend (strongly) changes
 2. Incident Response
+   * mitigation of violations of security policies and reccomended practices..
+
+it is likely that the most economically valuable electronic asset is aggregations of information on individuals
+
+## 2.11 Privacy vs Security -TODO!!
+1. Accountability
+   * Security:
+   * Privacy
