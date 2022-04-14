@@ -1,8 +1,8 @@
 # Algorithms:
 
 ## Search:
-* BFS
-* DFS
+* [BFS](BFS.MD)
+* [DFS](DFS.MD)
 * Binary Search
 
 
