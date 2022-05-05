@@ -1,4 +1,3 @@
-# https://leetcode.com/submissions/detail/676025861/
 class Solution:
     def reverseBits(self, n: int) -> int:
         # ok
