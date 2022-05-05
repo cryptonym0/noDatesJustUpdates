@@ -8,11 +8,13 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    def addTwoNumbers(
+        self, l1: Optional[ListNode], l2: Optional[ListNode]
+    ) -> Optional[ListNode]:
         # 2 + 5 = 7
         # 40 + 60 + 7 = 107
         # 300 + 400 + 107 = 807
-        #ok need a 3rd list to return, a pointer to read from the head and....a temp val for overflow
+        # ok need a 3rd list to return, a pointer to read from the head and....a temp val for overflow
         rem = 0
         rtn_node = ListNode(0)
         rtn_head = rtn_node
@@ -31,6 +33,5 @@ class Solution:
         if rem != 0:
             rtn_node.next = ListNode(rem)
             rtn_node = rtn_node.next
-            
+
         return rtn_head.next
-            

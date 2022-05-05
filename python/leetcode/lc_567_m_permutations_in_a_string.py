@@ -1,6 +1,8 @@
 # https://leetcode.com/submissions/detail/674474259/
 
 from collections import defaultdict
+
+
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         # hashtable default dict containing count of letters
